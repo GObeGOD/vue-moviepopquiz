@@ -73,7 +73,7 @@ export default {
 
   },
   methods: {
-    cardClicked: function(cardClicked){
+    cardClicked(cardClicked){
         let movieClicked=[];
         let otherMovie=[];
 
